@@ -8,7 +8,8 @@ import os
 
 print('-------文件---------')
 curPath = os.path.abspath(os.path.dirname(__file__))
-projectPath=curPath.replace('\com\yuntian','')
+
+print(curPath)
 
 with open('resource/file/a.text', 'r', encoding='utf-8') as f:
     print(f.name)
