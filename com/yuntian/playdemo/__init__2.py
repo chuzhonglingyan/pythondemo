@@ -5,6 +5,7 @@ from builtins import print, set, type, int, input
 # 两个元素的总和确定了下一个数
 
 
+
 print('-------斐波纳契数列---------')
 a, b = 0, 1
 
